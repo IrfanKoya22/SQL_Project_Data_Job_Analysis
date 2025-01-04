@@ -58,3 +58,5 @@ ALTER TABLE public.skills_job_dim OWNER to postgres;
 CREATE INDEX idx_company_id ON public.job_postings_fact (company_id);
 CREATE INDEX idx_skill_id ON public.skills_job_dim (skill_id);
 CREATE INDEX idx_job_id ON public.skills_job_dim (job_id);
+
+
